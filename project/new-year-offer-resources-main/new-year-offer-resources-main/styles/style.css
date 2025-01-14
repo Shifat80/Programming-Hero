@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Oxanium:wght@200..800&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    background: linear-gradient(to bottom, black 20%, transparent),url(/images/Banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin:40px 140px;
+    display: flex;
+    width: 1320px;
+    height: 600px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.tile{
+    display: flex;
+    color: #FFFFFF;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 400px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: large;
+}
+
+.cnt>h1{
+    color: red;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crd>h5{
+    color: red;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.crd>h2{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.pth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.pth img {
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Adjust the max-width as needed */
+    max-height: 300px; /* Adjust the max-height as needed */
+}
+
